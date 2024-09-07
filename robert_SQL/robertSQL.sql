@@ -1,3 +1,1 @@
-CREATE TABLE bobby(
-    NAME TEXT
-)
+DROP TABLE bobby
