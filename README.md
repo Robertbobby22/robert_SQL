@@ -27,4 +27,12 @@ FROM movie
 WHERE mov_title = 'American Beauty'
 ```
 
+### 4. Movie That Was Released in 1999
+```sql
+SELECT
+   mov_title,
+   mov_year
+FROM movie
+WHERE mov_year = 1999
+```
 
