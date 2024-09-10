@@ -71,5 +71,14 @@ WHERE dir_id IN(
 ```
 
 ### 7. Movies That Have Been Released in Countries Other Than 'UK'
+```sql
+SELECT
+   mov_title,
+   mov_year,
+   mov_rel_country
+FROM movie
+WHERE mov_rel_country NOT IN ('UK')
+```
 
+### 8. 
 
