@@ -68,5 +68,8 @@ WHERE dir_id IN(
         WHERE mov_title = 'Eyes Wide Shut'
     )
 )
+```
+
+### 7. Movies That Have Been Released in Countries Other Than 'UK'
 
 
